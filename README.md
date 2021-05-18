@@ -22,8 +22,8 @@ Present your solution (approach, results) to the class during the DKE2021 lectur
 
 ## Folder Structure:
 * **input_data**:  contains the training data: one CSV file listing all PLDs with left vs. right bias classification, respectively. The test data will be added to this folder. 
-* **output_folder**: folder that must be populated with the results of the home project. Please export all PLDs your algorithm classifies as left-biased to a file called 'left.csv' and all PLDs it classifies as right-biased to 'right.csv'. Don't forget to add the confidence scores.  
-* **src**: add your code here in the suitable subfolder (depending on whether you use Java or Python).
-* **assignment**: contains a more detailed task description. 
+* **output_data**: folder that must be populated with the results of the home project. Please export all PLDs your algorithm classifies as left-biased to a file called 'left.csv' and all PLDs it classifies as right-biased to 'right.csv'. Please refer to the task description in the assignment folder for information on the format.  
+* **src**: add your code here in the suitable subfolder(s) (depending on whether you use Java or Python).
+* **assignment**: contains a more detailed description of the task and the required output. 
 
 
