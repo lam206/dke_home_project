@@ -4,10 +4,11 @@ This repository contains the home project for the Data and Knowledge Engineering
 The project exercise can be completed at home, using the expertise and skill sets acquired in the DKE 2021 lectures.  
 Use this repository to prepare your solution. 
 
-A grade improvement is given when the following criteria is met:
+A grade improvement of 0.3 is given when the following criteria are met:
 * You provided a working solution to the problem and your results are reproducible. 
 * You submitted the solution in time and in the specified format. 
 * Your classification algorithm yields a reasonable performance on the classification task. You will find the precise score to beat here before the project starts. 
+* You presented your approach to the class during the DKE 2021 lecture on 29.06.
 
 
 
