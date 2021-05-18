@@ -20,6 +20,8 @@ Provide the source code and generated output via your Git repository **by 19.06.
 Present your solution (approach, results) to the class during the DKE2021 lecture on **29.06.2021** (detailed arrangements about presentations will be announced later in the lecture).
 
 ## Folder Structure:
-
+* **input_data**:  contains the training data: one CSV file listing all PLDs with left vs. right bias classification, respectively. The test data will be added to this folder. 
+* **output_folder**: folder that must be populated with the results of the home project. Please export all PLDs your algorithm classifies as left-biased to a file called 'left.csv' and all PLDs it classifies as right-biased to 'right.csv'. Don't forget to add the confidence scores.  
+* **src**: add your code here. 
 
 
