@@ -6,9 +6,10 @@ _negative_emotion = 'http://www.gsi.dit.upm.es/ontologies/wnaffect/ns#negative-e
 
 
 class Tweet:
-    def __init__(self, result):
+    def __init__(self, result, is_left_leaning):
         self.id = result['id']['value']
         self.url = result['url']['value']
+        self.is_left_leaning = is_left_leaning
         self._set_emotions()
 
     def _set_emotions(self):

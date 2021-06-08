@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sioc: <http://rdfs.org/sioc/ns#>
+PREFIX sioc_t: <http://rdfs.org/sioc/types#>
+PREFIX schema: <http://schema.org/>
+PREFIX onyx: <http://www.gsi.dit.upm.es/ontologies/onyx/ns#>
+
+SELECT DISTINCT ?id ?url ?taglabel
+WHERE {
+    ?tweet a sioc:Post ;
+        schema:citation ?url ;
+        sioc:id ?id .
+    FILTER REGEX (?url, "mediamatter.org")
+    ?tweet schema:mentions ?tag .
+    ?tag a sioc_t:Tag .
+    ?tag rdfs:label ?taglabel
+}
+LIMIT 10

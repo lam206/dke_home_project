@@ -14,8 +14,8 @@ sparql.setQuery("""
     PREFIX schema: <http://schema.org/>
     PREFIX onyx: <http://www.gsi.dit.upm.es/ontologies/onyx/ns#>
     
-    select distinct ?id ?url
-    where {
+    SELECT DISTINCT ?id ?url
+    WHERE {
         ?tweet a sioc:Post ;
             schema:citation ?url ;
             sioc:id ?id .
