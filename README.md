@@ -10,7 +10,7 @@ one can see my model achieved an accuracy of 86%.
 
 ## Training Data
 
-I used the local SQL database tool SQLite to store the results of SPARQL queries locally and to do data analysis on.
+I used the local SQL database tool SQLite to store the results of SPARQL queries locally (at `src/main/python/tweetscov19_groundtruth_tweets.db`) and to do data analysis on.
 I stored three main tables, one for each of the following queries, which retrieve tweet, tag and user mention information,
 respectively.
 
@@ -102,9 +102,9 @@ LIMIT 10000
 ```
 Note: ```%s``` in the `FILTER` expressions is replaced with a pld in my code.
 
-With analysed the data and engineered two features with SQL, one based on tag mentions and one on user mentions.
+I analysed the data and engineered two features with SQL, one based on tag mentions and one on user mentions.
 I created the table TrainingData with the schema `(pld, tag_mention_feature value, user_mention_feature value, grund_truth label)`.
-I labelled left_leaning sites as `1` and right-leaning sites as `0`.
+I labelled left_leaning sites as `1` and right-leaning sites as `0` with the help of the script `src/main/python/label.py`.
 
 
 ## Trainig
