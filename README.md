@@ -4,6 +4,8 @@
 This repository contains Leon Mlodzian's home project submission for the Data and Knowledge Engineering class 2021 at Heinrich Heine University.  
 The project exercise can be completed at home, using the expertise and skill sets acquired in the DKE 2021 lectures.
 
+The output of the evaluation script (invoked with `gradle run`) is in `gradle_run_output.txt` in the root folder. There 
+one can see my model achieved an accuracy of 86%.
 
 
 ## Training Data
